@@ -1,70 +1,198 @@
-# Getting Started with Create React App
+# 🎬 MovieLand – Movie Discovery Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+MovieLand is a modern React-based movie discovery application that allows users to search for movies, explore detailed information, and manage a personalized watchlist experience using the OMDb API.
 
-## Available Scripts
+This project was originally built as a simple movie search application and later enhanced into a more production-style frontend project with reusable components, responsive design, routing, modern UI improvements, and real-world frontend engineering practices.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Live Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+✅ Search movies dynamically using OMDb API  
+✅ Responsive modern UI  
+✅ Movie details page  
+✅ Loading and error handling states  
+✅ Watchlist/Favourites functionality  
+✅ React Router navigation  
+✅ Reusable React components  
+✅ Smooth hover effects and animations  
+✅ Local storage integration  
+✅ Mobile-friendly layout  
+✅ Scalable frontend folder structure  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🖥️ Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Frontend
+- React.js
+- JavaScript (ES6+)
+- CSS3
 
-### `npm run build`
+### Routing
+- React Router DOM
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### API
+- OMDb API
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### State & Storage
+- React Hooks
+- LocalStorage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Tools & Deployment
+- Git & GitHub
+- VS Code
+- Vercel
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📂 Project Structure
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+src/
+│
+├── components/
+│   ├── MovieCard.jsx
+│   ├── Navbar.jsx
+│   ├── SearchBar.jsx
+│   └── Loader.jsx
+│
+├── pages/
+│   ├── Home.jsx
+│   ├── MovieDetails.jsx
+│   └── Watchlist.jsx
+│
+├── services/
+│   └── movieApi.js
+│
+├── context/
+│   └── WatchlistContext.js
+│
+├── App.js
+├── index.js
+└── App.css
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🎯 Project Goals
 
-## Learn More
+The goal of this project was to improve frontend engineering skills by building a realistic movie platform experience while learning:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- API integration
+- React component architecture
+- Routing
+- State management
+- Responsive UI design
+- Error handling
+- Reusable frontend development practices
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## ⚡ Installation & Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Clone the repository
 
-### Analyzing the Bundle Size
+```bash
+git clone https://github.com/raheshcse/MovieLand-App.git
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Navigate into project
 
-### Making a Progressive Web App
+```bash
+cd MovieLand-App
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Install dependencies
 
-### Advanced Configuration
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Start development server
 
-### Deployment
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Application will run at:
 
-### `npm run build` fails to minify
+```bash
+http://localhost:3000
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## 🔑 Environment Variables
+
+Create a `.env` file in the root directory:
+
+```env
+REACT_APP_OMDB_API_KEY=your_api_key_here
+```
+
+Get your free API key from:
+
+https://www.omdbapi.com/apikey.aspx
+
+---
+
+## 📸 Screenshots
+
+### Home Page
+_Add screenshot here_
+
+### Movie Details Page
+_Add screenshot here_
+
+### Watchlist Page
+_Add screenshot here_
+
+---
+
+## 🌟 Key Improvements Made
+
+This project was upgraded from a basic movie search application into a more real-world frontend application by:
+
+- Refactoring into reusable components
+- Adding routing and navigation
+- Implementing better UI/UX practices
+- Creating scalable folder structure
+- Improving responsiveness
+- Adding loading/error states
+- Introducing watchlist functionality
+- Cleaning and organizing codebase
+
+---
+
+## 📈 Future Improvements
+
+- User authentication
+- Firebase backend integration
+- AI-powered movie recommendations
+- Trending movies section
+- Pagination
+- Dark/light mode toggle
+- Advanced filtering
+- Search suggestions
+- Movie trailers integration
+
+---
+
+## 👨‍💻 Author
+
+### Rahesh Saravanan
+
+AI & Full Stack Engineer
+
+GitHub:  
+https://github.com/raheshcse
+
+LinkedIn:  
+https://www.linkedin.com/in/raheshsaravanan/
+
+---
+
+## 📄 License
+
+This project is for educational and portfolio purposes.
